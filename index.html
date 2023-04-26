@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick And Morty</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body style="background: #333333">
+    <section>
+      <div class="bg__attachment">
+        <div class="bg__text-rick-and-morty">
+          <figure>
+            <img
+              src="https://pngimg.com/d/rick_morty_PNG7.png"
+              alt="rick and Morty"
+            />
+          </figure>
+        </div>
+      </div>
+      <form class="search__container">
+        <select id="gender">
+          <option value="">gender</option>
+          <option value="female">female</option>
+          <option value="male">male</option>
+          <option value="genderless">genderless</option>
+          <option value="unknown">unknown</option>
+        </select>
+        <select id="status">
+          <option value="">status</option>
+          <option value="alive">alive</option>
+          <option value="dead">dead</option>
+          <option value="unknown">unknown</option>
+        </select>
+        <div>
+          <input
+            type="search"
+            placeholder="Morty"
+            id="search__input"
+            autocomplete="off"
+          />
+          <button type="submit" class="button-68" role="button">Search</button>
+        </div>
+      </form>
+      <div class="search-character-result"></div>
+    </section>
+    <div id="cardCharacter" style="position: relative">
+      <img src="./assets/153302.svg" class="stars__svg" alt="star"/>
+      <img src="./assets/153302.svg"  class="stars__svg" alt="star"/>
+      <img src="./assets/153302.svg"  class="stars__svg" alt="star"/>
+      <img src="./assets/153302.svg"  class="stars__svg" alt="star"/>
+      <img src="./assets/153302.svg"  class="stars__svg" alt="star"/>
+    </div>
+    <div class="button__container">
+      <button class="button-68" role="button" id="btnPrev">prev</button>
+      <button class="button-68" role="button" id="btnNext">next</button>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
