@@ -1,4 +1,4 @@
-# rick-and-morty-web
+### ![rick and morty](./assets/Screenshot_107.jpg)
 ### This is an HTML and JavaScript code for a webpage that displays characters from the animated TV series "Rick and Morty". The code includes a search form with dropdown menus for gender and status, and a search input field. It also includes a card container where the characters are displayed along with their name, image, and status.
 ![dropdown menus for gender and status, and a search input field](./assets/Screenshot_104.jpg);
 #### How looks like when you filter and search:
